@@ -145,6 +145,7 @@ section{
     font-size: 2.2rem;
     padding: 1.5rem;
     cursor: pointer;
+    color: var(--black);
 }
 
 .header .search-form label:hover{
@@ -273,6 +274,45 @@ section{
 }
 /* about end */
 
+/* menu start */
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.menu .box-container .box:hover{
+    background: #eee;
+    color: var(--bg);
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.menu .box-container .box .price{
+    font-size: 2.5rem;
+    padding: .5rem;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.9rem;
+    font-weight: 200;
+    padding-left: .5rem;
+    text-decoration: line-through;
+}
+/* menu end */
 
 
 
