@@ -195,6 +195,8 @@ section{
     width: 100%;
 }
 /* header end */
+
+/* home start */
 .home{
     min-height: 100vh;
     background: url(/images/home-img.jpeg);
@@ -221,6 +223,7 @@ section{
     padding: 1.7rem 0;
     color: #eee;
 }
+/* home end */
 
 
 
