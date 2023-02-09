@@ -69,6 +69,18 @@ section{
     text-transform: uppercase;
 }
 
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.box{
+    border: var(--border);
+    text-align: center;
+    padding: 2rem;
+}
+
 .header{
     background: var(--bg);
     display: flex;
@@ -275,18 +287,6 @@ section{
 /* about end */
 
 /* menu start */
-.menu .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
-    gap: 1.5rem;
-}
-
-.menu .box-container .box{
-    padding: 5rem;
-    text-align: center;
-    border: var(--border);
-}
-
 .menu .box-container .box:hover{
     background: #eee;
     color: var(--bg);
@@ -315,18 +315,6 @@ section{
 /* menu end */
 
 /* product start */
-.product .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
-    align-items: center;
-}
-
-.product .box-container .box{
-    border: var(--border);
-    text-align: center;
-    padding: 2rem;
-}
 
 .product .box-container .box .icons div{
     border: var(--border);
@@ -362,6 +350,37 @@ section{
     font-size: 1.5rem;
 }
 /* product end */
+
+/* review start */
+.review .box-container .box img{
+    padding: 2rem 0;
+}
+
+.review .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.review .box-container .box .user{
+    height: 13rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box h3{
+    padding: 1.2rem 0;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+}
+
+.review .box-container .box .stars{
+    color: var(--main-color);
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+/* review end */
 
 
 
