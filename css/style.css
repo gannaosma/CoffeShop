@@ -34,7 +34,7 @@ html::-webkit-scrollbar-track{
     background: transparent;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 5rem;
 }
@@ -313,6 +313,55 @@ section{
     text-decoration: line-through;
 }
 /* menu end */
+
+/* product start */
+.product .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.product .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding: 2rem;
+}
+
+.product .box-container .box .icons div{
+    border: var(--border);
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.product .box-container .box .image{
+    padding: 2rem 0;
+}
+
+.product .box-container .box .content h3{
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+}
+
+.product .box-container .box .content .stars{
+    color: var(--main-color);
+    font-size: 1.7rem;
+    padding: 1.2rem 0;
+}
+
+.product .box-container .box .content .price{
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.product .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+/* product end */
 
 
 
