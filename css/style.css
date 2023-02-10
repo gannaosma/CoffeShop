@@ -207,6 +207,7 @@ section{
     top: 1rem;
     right: 2rem;
     cursor: pointer;
+    color: var(--bg);
 }
 
 .header .cart-item-container .cart-item span:hover{
