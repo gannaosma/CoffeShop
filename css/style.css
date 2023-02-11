@@ -210,6 +210,19 @@ section{
     color: var(--bg);
 }
 
+.header .cart-item-container .totalPrice{
+    color: #010103;
+    font-size: 1.7rem;
+    font-weight: 600;
+    float: right;
+    padding: 2rem;
+}
+
+.header .cart-item-container .totalPrice span{
+    background: #ccc;
+    padding: .5rem;
+}
+
 .header .cart-item-container .cart-item span:hover{
     color: var(--main-color);
 }
@@ -324,6 +337,11 @@ section{
     margin: 1rem;
     padding: 1rem;
     font-size: 2rem;
+}
+
+.product .box-container .box .icons div:hover{
+    background: var(--main-color);
+    cursor: pointer;
 }
 
 .product .box-container .box .image{
